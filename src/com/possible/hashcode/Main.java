@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args)throws FileNotFoundException{
         int maxNumOfOrder = 17;
         int max = 0;
-        int arr [] = {2, 6, 5, 8};
+        int arr [] = {2, 5, 6, 8};
         int numPizzaType = arr.length;
         int arr1[] = new int[numPizzaType];
         System.arraycopy(arr,0,arr1,0, numPizzaType);
